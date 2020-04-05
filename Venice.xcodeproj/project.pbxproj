@@ -13,6 +13,8 @@
 		004535282438F1FE0010A3A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004535262438F1FE0010A3A1 /* Main.storyboard */; };
 		0045352A2438F2010010A3A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004535292438F2010010A3A1 /* Assets.xcassets */; };
 		0045352D2438F2010010A3A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0045352B2438F2010010A3A1 /* LaunchScreen.storyboard */; };
+		004535352438F9C50010A3A1 /* RectImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004535342438F9C50010A3A1 /* RectImageView.swift */; };
+		004535372438FA790010A3A1 /* HeartImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004535362438FA790010A3A1 /* HeartImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		004535292438F2010010A3A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0045352C2438F2010010A3A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0045352E2438F2010010A3A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004535342438F9C50010A3A1 /* RectImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectImageView.swift; sourceTree = "<group>"; };
+		004535362438FA790010A3A1 /* HeartImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				004535222438F1FE0010A3A1 /* SceneDelegate.swift */,
 				004535242438F1FE0010A3A1 /* ViewController.swift */,
 				004535262438F1FE0010A3A1 /* Main.storyboard */,
+				004535342438F9C50010A3A1 /* RectImageView.swift */,
+				004535362438FA790010A3A1 /* HeartImageView.swift */,
 				004535292438F2010010A3A1 /* Assets.xcassets */,
 				0045352B2438F2010010A3A1 /* LaunchScreen.storyboard */,
 				0045352E2438F2010010A3A1 /* Info.plist */,
@@ -140,7 +146,9 @@
 			files = (
 				004535252438F1FE0010A3A1 /* ViewController.swift in Sources */,
 				004535212438F1FE0010A3A1 /* AppDelegate.swift in Sources */,
+				004535352438F9C50010A3A1 /* RectImageView.swift in Sources */,
 				004535232438F1FE0010A3A1 /* SceneDelegate.swift in Sources */,
+				004535372438FA790010A3A1 /* HeartImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
